@@ -107,3 +107,17 @@ app.compile()
 # como usar rutas y usr redirect para principiantes nose nada de como se usa codigo completo
 # 2 paginas y usar el decorador para llamar a una de las 2 paginas 
 # termina el codigo ya que falta la forma de aceder a la otra pagina con un boton no te olvides de uar el decorador de @rx.page
+# @rx.page("/")
+# def index():
+#     return rx.link(rx.button("Inciar secion"),href="/about")
+
+# @rx.page("/about")
+# def about():
+#     return rx.text("Estás en la página 'About'")
+
+# app = rx.App()
+# app.add_page(index)
+# app.add_page(about)
+# app.compile()
+
+
