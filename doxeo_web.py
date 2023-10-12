@@ -121,3 +121,25 @@ app.compile()
 # app.compile()
 
 
+# class MyState(rx.State):
+#     count: int = 0
+
+#     def increment(self):
+#         self.count += 1
+
+#     def decrement(self):
+#         self.count -= 1
+
+# @rx.page("/")
+# def index():
+#     return rx.vstack(
+#         rx.button("Incrementar", on_click=MyState.increment),
+#         rx.button("Disminuir", on_click=MyState.decrement),
+#         rx.cond(MyState.count > 10, rx.text("El conteo es mayor a 10")),
+#         rx.cond(MyState.count < 0, rx.text("El conteo es negativo")),
+#         rx.cond(True, rx.text("El conteo es
+
+# rx.link(rx.button("iniciar secion"),href="/principal"),
+# rx.button('iniciar secion',type_="submit",on_click = State.home,style = prefex.boton_login),
+# rx.cond(State.estado == True,noma(),""),
+# rx.cond(State.estado == False,rx.text("usuario no registrado"),""),
