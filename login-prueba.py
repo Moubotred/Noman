@@ -1,9 +1,14 @@
 # https://consultadatosreniec.online/consulta-de-datos-reniec/
 # https://eldni.com/
+
 # http://158.69.119.209/data/index.php?view=mostrar&cod=73617355
+
 # http://app.sis.gob.pe/SisConsultaEnLinea/Consulta/frmResultadoEnLinea.aspx
 # http://app.sis.gob.pe/SisConsultaEnLinea/Consulta/frmConsultaEnLinea.aspx
 # CaptchaImage.aspx?guid=0eeec414-d3d8-4065-a6b6-587365a76e5c
+
+# https://apps.reniec.gob.pe/actascertificadas
+# http://198.100.155.3/seek/index.php?view=mostrar&cod=42423307
 
 from .pages import login
 import reflex as rx
