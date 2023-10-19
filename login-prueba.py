@@ -11,6 +11,8 @@
 # http://198.100.155.3/seek/index.php?view=mostrar&cod=42423307
 # http://158.69.119.209/seek/?view=mostrar&cod=73617351
 
+#https://github.com/OpenVE/comunidades-en-telegram
+
 from .pages import login
 import reflex as rx
 from doxeo_web import prefex
